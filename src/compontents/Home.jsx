@@ -1,6 +1,7 @@
 import React from "react";
 
 import pic from "../../public/im2.jpg";
+import cv from "../../public/cv.png";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -47,7 +48,7 @@ function Home() {
           {/* Download CV Button */}
           <div className="flex justify-center mt-4">
             <a
-              href="/cv.png"
+              href={cv}
               download
               className="bg-blue-600 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-700 transition duration-200 transform hover:scale-105"
             >
