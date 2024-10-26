@@ -1,33 +1,34 @@
 import React from "react";
 import { FaEye, FaLink } from "react-icons/fa";
+import la from "../../public/la.png"; 
+import mp from "../../public/mp.png"; 
 
-// Sample project data
 const projects = [
   {
-    title: "Project One",
+    title: "Laundry System Website",
     description: "This is a brief description of Project One.",
-    image: "path/to/project1-image.jpg", // Replace with your image path
-    link: "https://link-to-project-one.com",
-    demo: "https://demo-link-to-project-one.com",
+    image: la,
+    link: "https://github.com/Vansh-13/Laundry3",
+    demo: "https://fantastic-wisp-d8059a.netlify.app/",
   },
   {
-    title: "Project Two",
+    title: "Real-Time Tracking App",
     description: "This is a brief description of Project Two.",
-    image: "path/to/project2-image.jpg", // Replace with your image path
-    link: "https://link-to-project-two.com",
-    demo: "https://demo-link-to-project-two.com",
+    image: mp, 
+    link: "https://github.com/Vansh-13/RealTimeTracking-app",
+    demo: "https://realtimetracking-app2.onrender.com/",
   },
   {
     title: "Project Three",
     description: "This is a brief description of Project Three.",
-    image: "path/to/project3-image.jpg", // Replace with your image path
+    image: "path/to/project3-image.jpg", 
     link: "https://link-to-project-three.com",
     demo: "https://demo-link-to-project-three.com",
   },
   {
     title: "Project Four",
     description: "This is a brief description of Project Four.",
-    image: "path/to/project4-image.jpg", // Replace with your image path
+    image: "path/to/project4-image.jpg", 
     link: "https://link-to-project-four.com",
     demo: "https://demo-link-to-project-four.com",
   },

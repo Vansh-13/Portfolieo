@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import pic from '../../public/photo.avif'; 
+import pic from '../../public/im2.jpg'; 
 import { TiThMenu } from "react-icons/ti";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from 'react-scroll'; // Use react-scroll for smooth scrolling
@@ -23,8 +23,8 @@ function Navbar() {
         <div className='hidden md:flex items-center space-x-8'>
           <Link to="home" smooth={true} duration={500} className='text-white hover:text-yellow-300 transition duration-200 cursor-pointer'>Home</Link>
           <Link to="about" smooth={true} duration={500} className='text-white hover:text-yellow-300 transition duration-200 cursor-pointer'>About</Link>
+          <Link to="skills" smooth={true} duration={500} className='text-white hover:text-yellow-300 transition duration-200 cursor-pointer'>Skills</Link>
           <Link to="portfolio" smooth={true} duration={500} className='text-white hover:text-yellow-300 transition duration-200 cursor-pointer'>Portfolio</Link>
-          <Link to="experience" smooth={true} duration={500} className='text-white hover:text-yellow-300 transition duration-200 cursor-pointer'>Experience</Link>
           <Link to="contact" smooth={true} duration={500} className='text-white hover:text-yellow-300 transition duration-200 cursor-pointer'>Contact</Link>
         </div>
 
@@ -37,8 +37,8 @@ function Navbar() {
         <div className='md:hidden flex flex-col h-screen items-center justify-center space-y-4 bg-white bg-opacity-90 shadow-lg'>
           <Link to="home" smooth={true} duration={500} className='text-lg font-semibold text-green-500 hover:text-yellow-300 transition duration-200 cursor-pointer'>Home</Link>
           <Link to="about" smooth={true} duration={500} className='text-lg font-semibold text-green-500 hover:text-yellow-300 transition duration-200 cursor-pointer'>About</Link>
+          <Link to="skills" smooth={true} duration={500} className='text-lg font-semibold text-green-500 hover:text-yellow-300 transition duration-200 cursor-pointer'>Skills</Link>
           <Link to="portfolio" smooth={true} duration={500} className='text-lg font-semibold text-green-500 hover:text-yellow-300 transition duration-200 cursor-pointer'>Portfolio</Link>
-          <Link to="experience" smooth={true} duration={500} className='text-lg font-semibold text-green-500 hover:text-yellow-300 transition duration-200 cursor-pointer'>Experience</Link>
           <Link to="contact" smooth={true} duration={500} className='text-lg font-semibold text-green-500 hover:text-yellow-300 transition duration-200 cursor-pointer'>Contact</Link>
         </div>
       )}
