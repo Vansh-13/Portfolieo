@@ -2,28 +2,28 @@ import React from "react";
 import { FaEye, FaLink } from "react-icons/fa";
 import la from "../../public/la.png"; 
 import mp from "../../public/mp.png"; 
-
+import po from "../../public/po.png"; 
 const projects = [
   {
     title: "Laundry System Website",
-    description: "This is a brief description of Project One.",
+    description: "This project is designed to provide an efficient and automated laundry management system for users to schedule pickups, track the status of their laundry, and manage payments online.",
     image: la,
     link: "https://github.com/Vansh-13/Laundry3",
     demo: "https://fantastic-wisp-d8059a.netlify.app/",
   },
   {
     title: "Real-Time Tracking App",
-    description: "This is a brief description of Project Two.",
+    description: "This app allows users to track the real-time location of various assets such as shipments, vehicles, or personal items. It offers live updates, notifications, and detailed maps to ensure efficient tracking and management.",
     image: mp, 
     link: "https://github.com/Vansh-13/RealTimeTracking-app",
     demo: "https://realtimetracking-app2.onrender.com/",
   },
   {
-    title: "Project Three",
-    description: "This is a brief description of Project Three.",
-    image: "path/to/project3-image.jpg", 
-    link: "https://link-to-project-three.com",
-    demo: "https://demo-link-to-project-three.com",
+    title: "Ecommerce-Cloth Store",
+    description: "An online store platform where customers can browse and purchase a wide variety of clothing items. The site features a user-friendly interface, secure payment options, and personalized recommendations based on user preferences and trends.",
+    image: po, 
+    link: "https://github.com/Vansh-13/ClothHaven",
+    demo: "https://clothehavencom.netlify.app/",
   },
   {
     title: "Project Four",
