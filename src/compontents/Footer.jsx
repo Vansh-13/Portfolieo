@@ -11,7 +11,7 @@ function Footer() {
     <footer className="text-gray-800 py-12">
       <div className="max-w-screen-2xl container mx-auto px-4 md:px-20">
         <div className="flex flex-col items-center">
-          {/* Social Media Links */}
+       
           <div className="flex space-x-8 mb-8">
             <a
               href="https://facebook.com"
@@ -47,10 +47,10 @@ function Footer() {
             </a>
           </div>
 
-          {/* Horizontal Line */}
+       
           <hr className="border-gray-400 w-full mb-8" />
 
-          {/* Copyright Information */}
+          
           <div className="text-center">
             <p className="text-sm mb-1">
               Copyright © 2024 Vansh Madaan. All rights reserved.

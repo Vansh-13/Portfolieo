@@ -5,15 +5,16 @@ import { MdEmail } from 'react-icons/md';
 
 function Contact() {
   return (
-    <section id='contact' className="max-w-screen-xl mx-auto px-4 md:px-8 py-16 bg-gray-50">
+    <section id='contact' className="max-w-screen-xl mx-auto px-4 md:px-8 py-16 bg-gradient-to-r from-teal-100 to-indigo-100 shadow-xl rounded-lg">
       <div className="text-center mb-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Contact Us</h2>
-        <p className="mt-2 text-gray-600">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800">Contact Us</h2>
+        <p className="mt-2 text-gray-600 opacity-80">
           Have any questions or feedback? We'd love to hear from you.
         </p>
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-start space-y-6 md:space-y-0">
+        {/* Contact Info Section */}
         <div className="w-full md:w-1/2 p-4">
           <div className="contact-info bg-white border border-gray-200 shadow-md hover:shadow-xl transition-shadow duration-300 p-6 rounded-lg transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Let's Get in Touch</h3>
@@ -37,10 +38,10 @@ function Contact() {
             <div className="social-media">
               <p className="text-gray-600 mb-2">Follow us on:</p>
               <div className="flex space-x-4">
-                <a href="#" aria-label="GitHub">
+                <a href="https://github.com/Vansh-13" aria-label="GitHub">
                   <FaGithubSquare className="text-black hover:text-gray-800 transition duration-300 transform hover:scale-110" />
                 </a>
-                <a href="#" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/vansh-madaan-504a3424a/" aria-label="LinkedIn">
                   <FaLinkedin className="text-black hover:text-gray-800 transition duration-300 transform hover:scale-110" />
                 </a>
                 <a href="#" aria-label="YouTube">
@@ -54,6 +55,7 @@ function Contact() {
           </div>
         </div>
 
+        {/* Contact Form Section */}
         <div className="w-full md:w-1/2 p-4">
           <div className="contact-form bg-white border border-gray-200 shadow-md hover:shadow-xl transition-shadow duration-300 p-6 rounded-lg transform transition-transform duration-300 hover:scale-105">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Send Us a Message</h3>

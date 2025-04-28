@@ -10,6 +10,7 @@ import Skills from './compontents/Skills'
 import Contact from './compontents/Contact'
 import Portfolio from './compontents/Portfolio'
 import Experience from './compontents/Experience'
+import Certificates from './compontents/Certificates'
 
 function App() {
  
@@ -22,6 +23,7 @@ function App() {
      {/* <Experience/> */}
      <Skills/>
      <Portfolio/>
+     <Certificates/>
      <Contact/>
      <Footer/>
     </>
